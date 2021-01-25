@@ -1,0 +1,28 @@
+{
+    "name": "broken-titan/laravel-powerbi-embed",
+    "description": "Power BI embedding for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marshall Miller",
+            "email": "contact@brokentitan.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "laravel/framework": "^5.0|^6.0|^7.0|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BrokenTitan\\PowerBI\\Providers\\PowerBIServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "BrokenTitan\\PowerBI\\": "src"
+        }
+    }
+}
