@@ -1,12 +1,12 @@
 {
-    "name": "broken-titan/laravel-powerbi-embed",
+    "name": "christophej/laravel-powerbi-embed",
     "description": "Power BI embedding for Laravel.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Marshall Miller",
-            "email": "contact@brokentitan.com"
+            "name": "Christophe Jost",
+            "email": ""
         }
     ],
     "require": {
